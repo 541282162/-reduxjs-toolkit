@@ -6,7 +6,7 @@ import counterSlice from "./reducer/counter"
 // 初始化store
 const store = configureStore({
     reducer:{
-        counter: counterSlice.reducer
+        counterReducer: counterSlice.reducer
     }
 })
 
